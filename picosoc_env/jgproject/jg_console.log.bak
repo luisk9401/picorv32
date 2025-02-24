@@ -1,0 +1,58 @@
+2025-02-22 13:02:27.150732 (27993) main____ INFO    ----------------------------------------
+2025-02-22 13:02:27.152706 (27993) main____ INFO    JasperGold version info
+2025-02-22 13:02:27.152729 (27993) main____ INFO      tool      : JasperGold 2019.03
+2025-02-22 13:02:27.152745 (27993) main____ INFO      version   : 2019.03p002 64 bits
+2025-02-22 13:02:27.152754 (27993) main____ INFO      build date: 2019.06.01 18:04:02 PDT
+2025-02-22 13:02:27.152763 (27993) main____ INFO    ----------------------------------------
+2025-02-22 13:02:27.152772 (27993) main____ INFO    Runtime info:
+2025-02-22 13:02:27.152781 (27993) main____ INFO      platform  : Linux 3.10.0-1160.125.1.el7.x86_64 x86_64
+2025-02-22 13:02:27.152798 (27993) main____ INFO      hostname  : p1lg511249
+2025-02-22 13:02:27.152809 (27993) main____ INFO      pid       : 27993
+2025-02-22 13:02:27.152817 (27993) main____ INFO      arguments : '-style' 'windows'
+2025-02-22 13:02:27.152824 (27993) main____ INFO    ----------------------------------------
+2025-02-22 13:02:27.152833 (27993) main____ INFO    System resource limits info:
+2025-02-22 13:02:27.152843 (27993) main____ INFO      virtual memory: unlimited
+2025-02-22 13:02:27.152851 (27993) main____ INFO      cpu time      : unlimited
+2025-02-22 13:02:27.152881 (27993) main____ INFO      stack size    : 8388608 B
+2025-02-22 13:02:27.152895 (27993) main____ INFO      core file size: 0 B
+2025-02-22 13:02:27.152912 (27993) main____ INFO      open files    : 256
+2025-02-22 13:02:27.152923 (27993) main____ INFO      file size     : unlimited
+2025-02-22 13:02:27.152930 (27993) main____ INFO    ----------------------------------------
+2025-02-22 13:02:27.152937 (27993) main____ INFO    Memory statistics:
+2025-02-22 13:02:27.152947 (27993) main____ INFO      total physical memory  : 16247380 kB
+2025-02-22 13:02:27.152955 (27993) main____ INFO      free physical memory   : 533168 kB
+2025-02-22 13:02:27.152962 (27993) main____ INFO      committed address space: 15952516 kB
+2025-02-22 13:02:27.152980 (27993) main____ INFO    ----------------------------------------
+2025-02-22 13:02:27.153023 (27993) main____ INFO    Important environment variables:
+2025-02-22 13:02:27.153042 (27993) main____ INFO      CDS_LIC_FILE   : '5280@liclin4-cadence.its.hpecorp.net,5280@liclin5-cadence.its.hpecorp.net,5280@liclin6-cadence.its.hpecorp.net'
+2025-02-22 13:02:27.153052 (27993) main____ INFO      DISPLAY        : ':1003'
+2025-02-22 13:02:27.153072 (27993) main____ INFO      LM_LICENSE_FILE: '10235@liclin3.its.hpecorp.net,10235@liclin1.its.hpecorp.net,10235@liclin2.its.hpecorp.net:33104@licwin2.its.hpecorp.net,33104@licwin3.its.hpecorp.net,33104@licwin1.its.hpecorp.net:1700@liclin3.its.hpecorp.net,1700@liclin1.its.hpecorp.net,1700@liclin2.its.hpecorp.net'
+2025-02-22 13:02:27.153086 (27993) main____ INFO      LSF_BINDIR     : '/p/lsf/10.1/linux3.10-glibc2.17-x86_64/bin'
+2025-02-22 13:02:27.153095 (27993) main____ INFO      TMPDIR         : '/scratch'
+2025-02-22 13:02:27.153101 (27993) main____ INFO    ----------------------------------------
+2025-02-22 13:02:27.154831 (27993) lic_core INFO    Initializing license system ...
+2025-02-22 13:02:27.157086 (27993) lic_core INFO    ... license system initialized.
+2025-02-22 13:02:27.158487 (27993) lic__man INFO    Claim 'main' for <ui>.
+2025-02-22 13:02:27.158552 (27993) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2025-02-22 13:02:33.056035 (27993) lic_core INFO    ... (1) checkout failed (error: -25) ("FLEXnet ERROR(-25, 0, 0): License server system does not support this version of this feature.")
+2025-02-22 13:02:33.056091 (27993) lic_core INFO    (2) checking out 'jasper_pint' ...
+2025-02-22 13:02:33.192948 (27993) lic_core INFO    ... (2) checkout succeeded
+2025-02-22 13:02:33.193094 (27993) lic__man INFO    Claim 'fpv' for <ui>.
+2025-02-22 13:02:33.193139 (27993) lic_core INFO    (3) checking out 'jasper_fpv' ...
+2025-02-22 13:02:33.772097 (27993) lic_core INFO    ... (3) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2025-02-22 13:02:33.772157 (27993) lic_core INFO    (4) checking out 'jasper_fao' ...
+2025-02-22 13:02:39.255020 (27993) lic_core INFO    ... (4) checkout failed (error: -4) ("FLEXnet ERROR(-4, 0, 0): Licensed number of users already reached.")
+2025-02-22 13:02:39.255083 (27993) lic_core INFO    (5) checking out 'jasper_papp' ...
+2025-02-22 13:02:39.396494 (27993) lic_core INFO    ... (5) checkout succeeded
+2025-02-22 13:02:40.740795 (27993) lic__man INFO    Claim 'fpv' for <ui>.
+2025-02-22 13:02:41.234660 (27993) lic__man INFO    Unclaim 'fpv' for <ui>.
+2025-02-22 13:02:41.234730 (27993) lic__man INFO    Claim 'fpv' for <ui>.
+2025-02-22 13:02:41.322128 (27993) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2025-02-22 13:02:41.324841 (27993) session_ INFO    Analysis session with session id 'session_0' started (pid: 28033)
+2025-02-22 13:02:44.386567 (27993) session_ INFO    Analysis session 'session_0' connected to the console (host: 10.88.0.63:32870)
+2025-02-22 13:02:58.791460 (27993) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:05:28.416974 (27993) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:08:30.956965 (28026) main____ INFO    SIGINT received (#1). Trying to interrupt current computation(s).
+2025-02-22 13:08:31.156348 (28026) main____ INFO    SIGINT received (#2). Trying to save and exit.
+2025-02-22 13:08:31.316399 (27993) main____ INFO    The database has been auto-saved to '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/jgproject/autosave_j27993.db'.
+2025-02-22 13:08:31.339160 (28026) main____ INFO    SIGINT received (#3). Forcing exit.

@@ -1,0 +1,30 @@
+
+# Enable SystemVerilog and UVM
+
+-64
+-uvmhome $UVM_HOME
+-timescale 1ns/1ns
+
+-linedebug,
+# Simulation settings
+-access +rwc
+
+# Specify the test to run
++UVM_TESTNAME=pcpi_div_test
+
+# Directories for includes
++incdir+/v/288/ws3/moral/maestria/picorv32/picorv32/
++incdir+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/
+#+incdir+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_axi_adapter_agt
+
+# List of all files needed for Simulation
+/v/288/ws3/moral/maestria/picorv32/picorv32/picorv32.v
+#/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/pcpi_div_txn.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/pcpi_div_if.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/pcpi_div_pkg.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/sva_model/pcpi_div_sva.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div_env.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/sequences/pcpi_div_seq.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/test/pcpi_div_test.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hvl_pcp_div.sv

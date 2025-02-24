@@ -1,0 +1,88 @@
+*** Message Type: info ***
+When: Mon Nov 18 00:06:05 UTC 2024
+SimVision started.
+Version: TOOL:  simvision(64)   23.09-s001
+User: moral
+Host: p1lg511249.dc01.its.hpecorp.net
+Platform: Linux/x86_64/3.10.0-1160.119.1.el7.x86_64
+Started: Mon Nov 18 00:06:05 UTC 2024
+Command: /p/svl/p1/proj_tools/cadence/xlm-23.09.001/tools.lnx86/simvision/bin/64bit/simvision.exe -connect dc:p1lg511249.dc01.its.hpecorp.net:36644 -64BIT -nocopyright
+Work Directory: /v/288/ws3/moral/maestria/project_root/env/picosoc_env
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:06:06 UTC 2024
+Create browser window: "Design Browser 1"
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:06:09 UTC 2024
+Create console window: "Console"
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:06:13 UTC 2024
+Connect to Simulator
+      Design: worklib.picorv32_regs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       23.09-s001
+        User: moral
+        Host: p1lg511249.dc01.its.hpecorp.net
+Time Started: Mon Nov 18 00:06:03 UTC 2024
+  Process ID: 115755
+   Directory: /v/288/ws3/moral/maestria/project_root/env/picosoc_env
+     Command: xrun -f test.f
+
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:06:16 UTC 2024
+Create utility window: "Properties"
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:06:20 UTC 2024
+Create waveform window: "Waveform 1"
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:10:20 UTC 2024
+Exit XM-Sim: user
+      Design: worklib.picorv32_regs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       23.09-s001
+        User: moral
+        Host: p1lg511249.dc01.its.hpecorp.net
+Time Started: Mon Nov 18 00:06:03 UTC 2024
+  Process ID: 115755
+   Directory: /v/288/ws3/moral/maestria/project_root/env/picosoc_env
+     Command: xrun -f test.f
+
+ 
+*** Message Type: error ***
+When: Mon Nov 18 00:10:20 UTC 2024
+XM-Sim Crashed:
+      Design: worklib.picorv32_regs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:    xmsim(64)       23.09-s001
+        User: moral
+        Host: p1lg511249.dc01.its.hpecorp.net
+Time Started: Mon Nov 18 00:06:03 UTC 2024
+  Process ID: 115755
+   Directory: /v/288/ws3/moral/maestria/project_root/env/picosoc_env
+     Command: xrun -f test.f
+      Design: worklib.picorv32_regs:v
+   Languages: verilog
+   Simulator: XM-Sim
+     Version: TOOL:     xmsim(64)       23.09-s001
+        User: moral
+        Host: p1lg511249.dc01.its.hpecorp.net
+Time Started: Mon Nov 18 00:06:03 UTC 2024
+  Process ID: 115755
+   Directory: /v/288/ws3/moral/maestria/project_root/env/picosoc_env
+     Command: xrun -f test.f
+
+Outstanding STRAP Requests:
+        strap::report enable out
+ 
+*** Message Type: info ***
+When: Mon Nov 18 00:10:23 UTC 2024
+SimVision Exit.
+ 

@@ -1,0 +1,98 @@
+2025-02-22 13:09:50.264341 (28764) main____ INFO    ----------------------------------------
+2025-02-22 13:09:50.268661 (28764) main____ INFO    JasperGold version info
+2025-02-22 13:09:50.268698 (28764) main____ INFO      tool      : JasperGold 2019.03
+2025-02-22 13:09:50.268715 (28764) main____ INFO      version   : 2019.03p002 64 bits
+2025-02-22 13:09:50.268724 (28764) main____ INFO      build date: 2019.06.01 18:04:02 PDT
+2025-02-22 13:09:50.268731 (28764) main____ INFO    ----------------------------------------
+2025-02-22 13:09:50.268741 (28764) main____ INFO    Runtime info:
+2025-02-22 13:09:50.268752 (28764) main____ INFO      platform  : Linux 3.10.0-1160.125.1.el7.x86_64 x86_64
+2025-02-22 13:09:50.268768 (28764) main____ INFO      hostname  : p1lg511249
+2025-02-22 13:09:50.268778 (28764) main____ INFO      pid       : 28764
+2025-02-22 13:09:50.268788 (28764) main____ INFO      arguments : '-style' 'windows' 'run_formal_div.tcl'
+2025-02-22 13:09:50.268795 (28764) main____ INFO    ----------------------------------------
+2025-02-22 13:09:50.268801 (28764) main____ INFO    System resource limits info:
+2025-02-22 13:09:50.268813 (28764) main____ INFO      virtual memory: unlimited
+2025-02-22 13:09:50.268823 (28764) main____ INFO      cpu time      : unlimited
+2025-02-22 13:09:50.268844 (28764) main____ INFO      stack size    : 8388608 B
+2025-02-22 13:09:50.268858 (28764) main____ INFO      core file size: 0 B
+2025-02-22 13:09:50.268873 (28764) main____ INFO      open files    : 256
+2025-02-22 13:09:50.268880 (28764) main____ INFO      file size     : unlimited
+2025-02-22 13:09:50.268887 (28764) main____ INFO    ----------------------------------------
+2025-02-22 13:09:50.268896 (28764) main____ INFO    Memory statistics:
+2025-02-22 13:09:50.268905 (28764) main____ INFO      total physical memory  : 16247380 kB
+2025-02-22 13:09:50.268915 (28764) main____ INFO      free physical memory   : 471680 kB
+2025-02-22 13:09:50.268924 (28764) main____ INFO      committed address space: 16053908 kB
+2025-02-22 13:09:50.268933 (28764) main____ INFO    ----------------------------------------
+2025-02-22 13:09:50.268976 (28764) main____ INFO    Important environment variables:
+2025-02-22 13:09:50.268991 (28764) main____ INFO      CDS_LIC_FILE   : '5280@liclin4-cadence.its.hpecorp.net,5280@liclin5-cadence.its.hpecorp.net,5280@liclin6-cadence.its.hpecorp.net'
+2025-02-22 13:09:50.269004 (28764) main____ INFO      DISPLAY        : ':1003'
+2025-02-22 13:09:50.269023 (28764) main____ INFO      LM_LICENSE_FILE: '10235@liclin3.its.hpecorp.net,10235@liclin1.its.hpecorp.net,10235@liclin2.its.hpecorp.net:33104@licwin2.its.hpecorp.net,33104@licwin3.its.hpecorp.net,33104@licwin1.its.hpecorp.net:1700@liclin3.its.hpecorp.net,1700@liclin1.its.hpecorp.net,1700@liclin2.its.hpecorp.net'
+2025-02-22 13:09:50.269035 (28764) main____ INFO      LSF_BINDIR     : '/p/lsf/10.1/linux3.10-glibc2.17-x86_64/bin'
+2025-02-22 13:09:50.269045 (28764) main____ INFO      TMPDIR         : '/scratch'
+2025-02-22 13:09:50.269055 (28764) main____ INFO    ----------------------------------------
+2025-02-22 13:09:50.269749 (28764) lic_core INFO    Initializing license system ...
+2025-02-22 13:09:50.279138 (28764) lic_core INFO    ... license system initialized.
+2025-02-22 13:09:50.280678 (28764) lic__man INFO    Claim 'main' for <ui>.
+2025-02-22 13:09:50.280740 (28764) lic_core INFO    (1) checking out 'jasper_interactive' ...
+2025-02-22 13:09:50.491830 (28764) lic_core INFO    ... (1) checkout failed (error: -25) ("FLEXnet ERROR(-25, 0, 0): License server system does not support this version of this feature.")
+2025-02-22 13:09:50.491888 (28764) lic_core INFO    (2) checking out 'jasper_pint' ...
+2025-02-22 13:09:50.557099 (28764) lic_core INFO    ... (2) checkout succeeded
+2025-02-22 13:09:50.557260 (28764) lic__man INFO    Claim 'fpv' for <ui>.
+2025-02-22 13:09:50.557337 (28764) lic_core INFO    (3) checking out 'jasper_fpv' ...
+2025-02-22 13:09:50.798933 (28764) lic_core INFO    ... (3) checkout failed (error: -5) ("FLEXnet ERROR(-5, 0, 0): No such feature exists.")
+2025-02-22 13:09:50.799003 (28764) lic_core INFO    (4) checking out 'jasper_fao' ...
+2025-02-22 13:10:01.154730 (28764) lic_core INFO    ... (4) checkout failed (error: -4) ("FLEXnet ERROR(-4, 0, 0): Licensed number of users already reached.")
+2025-02-22 13:10:01.154805 (28764) lic_core INFO    (5) checking out 'jasper_papp' ...
+2025-02-22 13:10:01.548970 (28764) lic_core INFO    ... (5) checkout succeeded
+2025-02-22 13:10:02.885447 (28764) lic__man INFO    Claim 'fpv' for <ui>.
+2025-02-22 13:10:03.278812 (28764) lic__man INFO    Unclaim 'fpv' for <ui>.
+2025-02-22 13:10:03.278874 (28764) lic__man INFO    Claim 'fpv' for <ui>.
+2025-02-22 13:10:03.324894 (28764) session_ INFO    Starting analysis session with session id 'session_0' (launcher: <local>) ...
+2025-02-22 13:10:03.326966 (28764) session_ INFO    Analysis session with session id 'session_0' started (pid: 28820)
+2025-02-22 13:10:06.331726 (28764) session_ INFO    Analysis session 'session_0' connected to the console (host: 10.88.0.63:38372)
+2025-02-22 13:10:07.315857 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:11:06.313611 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:11:06.611894 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:11:06.700440 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:11:07.484488 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:11:19.356509 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:21:13.617666 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:21:14.030473 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:21:14.042339 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:21:14.825609 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:21:22.544395 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:27:08.698631 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:27:09.023039 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:27:09.081292 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:27:09.685966 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:27:16.052788 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:34:28.673045 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:34:29.031475 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:34:29.058723 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:34:29.883223 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:34:32.955286 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:40:43.056257 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:40:43.528645 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:40:43.560859 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:40:44.426502 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:40:46.936754 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:44:41.552262 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:44:41.871691 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:44:41.916003 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:44:42.492264 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:44:44.592133 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:51:16.742161 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:51:17.125448 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 13:51:17.181101 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 13:51:18.001677 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 13:51:20.147458 (28764) lic__man INFO    Claim 'fpv' for 'session_0'.
+2025-02-22 13:59:41.311044 (28764) lic__man INFO    Entering idle state.
+2025-02-22 14:06:40.962400 (28764) lic__man INFO    Leaving idle state.
+2025-02-22 14:06:46.066354 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 14:06:46.507556 (28764) lic__man INFO    Unclaim everything for 'session_0'.
+2025-02-22 14:06:46.586488 (28764) lic__man INFO    Claim 'fpv' for 'session_0/prove-0'.
+2025-02-22 14:06:47.376203 (28764) lic__man INFO    Unclaim everything for 'session_0/prove-0'.
+2025-02-22 14:14:47.382365 (28764) lic__man INFO    Entering idle state.
+2025-02-24 01:37:52.840036 (28801) main____ INFO    SIGINT received (#1). Trying to interrupt current computation(s).
+2025-02-24 01:37:53.040488 (28801) main____ INFO    SIGINT received (#2). Trying to save and exit.
+2025-02-24 01:37:53.223034 (28801) main____ INFO    SIGINT received (#3). Forcing exit.

@@ -1,0 +1,146 @@
+#----------------------------------------
+# JasperGold Version Info
+# tool      : JasperGold 2019.03
+# platform  : Linux 3.10.0-1160.125.1.el7.x86_64
+# version   : 2019.03p002 64 bits
+# build date: 2019.06.01 18:04:02 PDT
+#----------------------------------------
+# started Sat Feb 22 13:02:42 UTC 2025
+# hostname  : p1lg511249.dc01.its.hpecorp.net
+# pid       : 28033
+# arguments : '-label' 'session_0' '-console' 'p1lg511249:41175' '-style' 'windows' '-data' 'AQAAADx/////AAAAAAAAA3oBAAAAEABMAE0AUgBFAE0ATwBWAEU=' '-proj' '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/jgproject/sessionLogs/session_0' '-init' '-hidden' '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/jgproject/.tmp/.initCmds.tcl'
+
+Any disclosure about the Cadence Design Systems software or its use
+model to any third party violates the written Non-Disclosure Agreement
+between Cadence Design Systems, Inc. and the customer.
+
+THIS SOFTWARE CONTAINS CONFIDENTIAL INFORMATION AND TRADE SECRETS OF
+CADENCE DESIGN SYSTEMS, INC. USE, DISCLOSURE, OR REPRODUCTION IS
+PROHIBITED WITHOUT THE PRIOR EXPRESS WRITTEN PERMISSION OF CADENCE
+DESIGN SYSTEMS, INC.
+
+Copyright (C) 2000-2019 Cadence Design Systems, Inc. All Rights
+Reserved.  Unpublished -- rights reserved under the copyright laws of
+the United States.
+
+This product includes software developed by others and redistributed
+according to license agreement. See doc/third_party_readme.txt for
+further details.
+
+RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the Government is subject to
+restrictions as set forth in subparagraph (c) (1) (ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013 or
+subparagraphs (c) (1) and (2) of Commercial Computer Software -- Restricted
+Rights at 48 CFR 52.227-19, as applicable.
+
+
+                          Cadence Design Systems, Inc. 
+                          2655 Seely Avenue
+                          San Jose, CA 95134
+                          Phone: 408.943.1234
+
+For technical assistance visit http://support.cadence.com.
+
+JasperGold Apps Analysis Session - /v/288/ws3/moral/maestria/project_root/env/picosoc_env/jgproject/sessionLogs/session_0
+
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/jgproject/jg.log
+INFO: successfully checked out licenses "jasper_pint" and "jasper_papp".
+INFO: reading configuration file "/h/moral/.config/jasper/jaspergold.conf".
+% include /v/288/ws3/moral/maestria/project_root/env/picosoc_env/run_formal_div.tcl
+%% clear -all
+INFO (IPF121): Cleared environment completely for new design analysis.
+%% analyze +define+FORMAL -sv -f vc_file_div top_hdl_pcp_div.sv
+[-- (VERI-1482)] Analyzing Verilog file '/v/315/cadence3/jasper/19.03.002/lib/verilog/packages/std/std.sv' into library 'std'
+[-- (VERI-1482)] Analyzing Verilog file '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/pcpi_div_if.sv'
+[-- (VERI-1482)] Analyzing Verilog file '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v'
+[-- (VERI-1482)] Analyzing Verilog file '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/sva_model/pcpi_div_sva.sv'
+[-- (VERI-1482)] Analyzing Verilog file 'top_hdl_pcp_div.sv'
+%% elaborate -top hdl_top
+INFO (ISW003): Top module name is "hdl_top".
+[ERROR (VERI-9029)] Module hdl_top has not been analyzed yet
+[ERROR] Module work.hdl_top could not be elaborated
+Summary of errors detected:
+	[ERROR (VERI-9029)] Module hdl_top has not been analyzed yet
+	[ERROR] Module work.hdl_top could not be elaborated
+ERROR at line 3 in file /v/288/ws3/moral/maestria/project_root/env/picosoc_env/run_formal_div.tcl, more info in Tcl-variable errorInfo
+ERROR (ENL034): 2 errors detected in the design file(s).
+
+
+% set_capture_elaborated_design on
+% analyze -verilog {/v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v} ; analyze -sv {/v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv} ; 
+[-- (VERI-1482)] Analyzing Verilog file '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v'
+[WARN (VERI-1206)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v(91): overwriting previous definition of module 'picorv32_pcpi_div'
+[INFO (VERI-2142)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v(91): previous definition of design element 'picorv32_pcpi_div' is here
+[-- (VERI-1482)] Analyzing Verilog file '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv'
+[WARN (VERI-1206)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(40): overwriting previous definition of module 'top_hdl'
+[INFO (VERI-2142)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(40): previous definition of design element 'top_hdl' is here
+% elaborate -top {picorv32_pcpi_div}
+INFO (ISW003): Top module name is "picorv32_pcpi_div".
+[INFO (VERI-1018)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v(1): compiling module 'picorv32_pcpi_div'
+[WARN (VERI-1209)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v(80): expression size 63 truncated to fit in target size 32
+picorv32_pcpi_div
+[<embedded>] % elaborate -top {top_hdl}
+ERROR (ENL143): "elaborate" single run mode is enabled.
+    To run multiple "elaborate" commands, run "clear -all" and "set_elaborate_single_run_mode off" before starting the setup.
+    NOTE: Disabling this mode can cause larger memory consumption.
+
+
+[<embedded>] % set_elaborate_single_run_mode off
+
+[<embedded>] % elaborate -top {top_hdl}
+INFO (ISW003): Top module name is "top_hdl".
+[ERROR (VERI-9029)] Module top_hdl has not been analyzed yet
+[ERROR] Module top_hdl could not be elaborated
+Summary of errors detected:
+	[ERROR (VERI-9029)] Module top_hdl has not been analyzed yet
+	[ERROR] Module top_hdl could not be elaborated
+ERROR (ENL034): 2 errors detected in the design file(s).
+
+
+[<embedded>] % analyze -sv {/v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv} ; 
+[-- (VERI-1482)] Analyzing Verilog file '/v/315/cadence3/jasper/19.03.002/lib/verilog/packages/std/std.sv' into library 'std'
+[-- (VERI-1482)] Analyzing Verilog file '/v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv'
+[<embedded>] % elaborate -top {top_hdl}
+INFO (ISW003): Top module name is "top_hdl".
+[INFO (VERI-1018)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(1): compiling module 'top_hdl'
+[WARN (VERI-1060)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(26): 'initial' construct ignored
+[WARN (VERI-1060)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(37): 'initial' construct ignored
+[WARN (VERI-1063)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(6): instantiating unknown module 'pcpi_div_if'
+[WARN (VERI-1063)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(20): instantiating unknown module 'picorv32_pcpi_div'
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(10): Creating net pcpi_if.clk
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(11): Creating net pcpi_if.resetn
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(12): Creating net pcpi_if.pcpi_valid
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(13): Creating net pcpi_if.pcpi_insn
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(14): Creating net pcpi_if.pcpi_rs1
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(15): Creating net pcpi_if.pcpi_rs2
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(16): Creating net pcpi_if.pcpi_wr
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(17): Creating net pcpi_if.pcpi_rd
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(18): Creating net pcpi_if.pcpi_wait
+[INFO (VERI-8000)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(19): Creating net pcpi_if.pcpi_ready
+[WARN (VERI-1063)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(39): instantiating unknown module 'pcpi_div_sva'
+[WARN (VERI-9028)] /v/288/ws3/moral/maestria/project_root/env/picosoc_env/top_hdl_pcp_div.sv(39): missing/open ports on instance sva_inst of module pcpi_div_sva
+ERROR (ENL058): Unable to elaborate module/entity "pcpi_div_if" because this module/entity is missing or it contains errors.
+    Re-analyze it or use "-bbox_m pcpi_div_if" if you want to black box this module/entity.
+WARNING (WNL059): If you are analyzing with "-mfcu" or "-sfcu" and "-L", try using "elaborate -L libname", "set_analyze_libunboundsearch" or "analyze +libunboundsearch"
+ERROR (ENL058): Unable to elaborate module/entity "picorv32_pcpi_div" because this module/entity is missing or it contains errors.
+    Re-analyze it or use "-bbox_m picorv32_pcpi_div" if you want to black box this module/entity.
+WARNING (WNL059): If you are analyzing with "-mfcu" or "-sfcu" and "-L", try using "elaborate -L libname", "set_analyze_libunboundsearch" or "analyze +libunboundsearch"
+ERROR (ENL058): Unable to elaborate module/entity "pcpi_div_sva" because this module/entity is missing or it contains errors.
+    Re-analyze it or use "-bbox_m pcpi_div_sva" if you want to black box this module/entity.
+WARNING (WNL059): If you are analyzing with "-mfcu" or "-sfcu" and "-L", try using "elaborate -L libname", "set_analyze_libunboundsearch" or "analyze +libunboundsearch"
+Summary of errors detected:
+	ERROR (ENL058): Unable to elaborate module/entity "pcpi_div_if" because this module/entity is missing or it contains errors.
+    Re-analyze it or use "-bbox_m pcpi_div_if" if you want to black box this module/entity.
+	ERROR (ENL058): Unable to elaborate module/entity "picorv32_pcpi_div" because this module/entity is missing or it contains errors.
+    Re-analyze it or use "-bbox_m picorv32_pcpi_div" if you want to black box this module/entity.
+	ERROR (ENL058): Unable to elaborate module/entity "pcpi_div_sva" because this module/entity is missing or it contains errors.
+    Re-analyze it or use "-bbox_m pcpi_div_sva" if you want to black box this module/entity.
+ERROR (ENL034): 3 errors detected in the design file(s).
+
+
+INFO (IIM002): *** Stopping all proof jobs ***
+INFO (IPL005): Received request to exit from the console.
+INFO: Waiting for proof threads to stop...
+INFO: Proof threads stopped.

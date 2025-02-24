@@ -1,0 +1,11 @@
++libext+.v+.vf+.vh+.vm+.vlib+.vp+.h
++librescan
++define+SPYGLASS_NOLINT
++define+SYNTHESIS
+-y /v/288/ws3/moral/maestria/picorv32/picorv32/
+-y /v/288/ws3/moral/maestria/project_root/env/picosoc_env/sva_model/
+-y /v/288/ws3/moral/maestria/project_root/env/picosoc_env/
+-y /v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/agents/picorv32_pcpi_div_agt/pcpi_div_if.sv
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/pcpi_div.v
+/v/288/ws3/moral/maestria/project_root/env/picosoc_env/sva_model/pcpi_div_sva.sv

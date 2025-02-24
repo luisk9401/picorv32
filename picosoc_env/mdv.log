@@ -1,0 +1,8 @@
+[INFO ] 2024-11-04 20:03:34 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 40029
+[INFO ] 2024-11-06 22:02:49 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 35870
+[INFO ] 2024-11-06 22:07:41 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 41517
+[INFO ] 2024-12-03 17:56:59 [com.cadence.mdv.imc.Main] [main] - Binding debug tools http on port: 33555
+[ERROR] 2024-12-03 17:57:12 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Cannot read directory '/v/288/iotest'. Check if the directory has read permission, and rerun the command	   
+[ERROR] 2024-12-03 17:57:13 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Cannot read directory '/root'. Check if the directory has read permission, and rerun the command	   
+[ERROR] 2024-12-03 17:57:13 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-2] - Cannot read directory '/.pki'. Check if the directory has read permission, and rerun the command	   
+[ERROR] 2024-12-03 17:57:16 [com.cadence.mdv.messaging.MDVASynchronicMessaging] [frontend-pool-1] - Cannot read directory '/p/test'. Check if the directory has read permission, and rerun the command	   

@@ -1,0 +1,7 @@
+IMC(64): 23.09-s001: (c) Copyright 1995-2023 Cadence Design Systems Inc - Simulator version: 23.09-s001 - Coverage engine version: 23.09-s001
+Starting gui mode
+imc: *E,CNTRDDR: Cannot read directory '/v/288/iotest'. Check if the directory has read permission, and rerun the command	   
+imc: *E,CNTRDDR: Cannot read directory '/root'. Check if the directory has read permission, and rerun the command	   
+imc: *E,CNTRDDR: Cannot read directory '/.pki'. Check if the directory has read permission, and rerun the command	   
+imc: *E,CNTRDDR: Cannot read directory '/p/test'. Check if the directory has read permission, and rerun the command	   
+imc: *I,RUNLD: Successfully loaded run /p/pnb/wsr1/rw/guild/rw_tm_regress/qs_guild_1_0/cov_work/scope/merged_coverage.
