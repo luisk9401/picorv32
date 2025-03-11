@@ -12,8 +12,6 @@ This repository is part of a **Master’s Degree Thesis** that explores the **re
  ├── 📂 picosoc_env/        # UVM environment for the PicoSoC module containts axidapter and div reutilzation module
  ├── 📂 simpleuart_env/     # UVM SKELENTON environment for the SimpleUART module
  ├── 📂 spimemio_env/       # UVM  SKELENTON environment for the SpiMemIO module
- ├── 📂 docs/               # Documentation and thesis-related materials
- ├── 📂 results/            # Collected simulation and formal verification results
  ├── 📜 README.md           # This file
 ```
 
